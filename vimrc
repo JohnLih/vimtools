@@ -8,6 +8,25 @@ set cindent
 set ru
 set cursorcolumn"
 
+" MiniBufExplorer
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplMapWindowNavArrows = 1
+let g:miniBufExplMapCTabSwitchBufs = 1
+let g:miniBufExplModSelTarget = 1
+
+" 启动鼠标
+set mouse=a
+
+" 允许退格键删除和tab操作
+set smartindent
+set smarttab
+set expandtab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set backspace=2
+set textwidth=79
+
 "制表符缩近为等于4个空格"
 set tabstop=4
 
