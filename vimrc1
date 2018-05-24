@@ -42,6 +42,15 @@ set wildmenu
 " 启用鼠标
 set mouse=a
 
+" 配置折叠
+set foldmethod=indent
+set foldlevelstart=99
+
+" 配置vimdiff
+map <silent> <leader>2 :diffget 2<CR> :diffupdate<CR>
+map <silent> <leader>3 :diffget 3<CR> :diffupdate<CR>
+map <silent> <leader>4 :diffget 4<CR> :diffupdate<CR>
+
 
 " vundle 环境设置
 filetype off
